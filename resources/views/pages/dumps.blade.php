@@ -160,10 +160,10 @@
         </div>
 
         <!-- Warm Closing Note -->
-        <div class="facts-sidebar-card" style="margin-top: 70px; text-align: center; padding: 40px 30px;" data-aos="fade-up">
+        <div class="facts-sidebar-card editorial-callout-banner" data-aos="fade-up">
             <span class="section-eyebrow" style="margin-bottom: 8px;">Scrapbook Colophon</span>
-            <h3 style="font-size: 1.65rem; margin-bottom: 10px; color: var(--ink-title);">"The Best Things in Life Aren't Things — They're People."</h3>
-            <p style="font-family: var(--font-story); font-style: italic; font-size: 1.05rem; color: var(--ink-muted); max-width: 620px; margin: 0 auto;">
+            <h3 class="callout-banner-title">"The Best Things in Life Aren't Things — They're People."</h3>
+            <p class="callout-banner-desc" style="font-style: italic; margin-bottom: 0;">
                 Grateful for the people who keep life grounded, loud, warm, and endlessly fun outside the code editor.
             </p>
         </div>

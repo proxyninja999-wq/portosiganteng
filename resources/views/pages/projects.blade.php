@@ -17,14 +17,14 @@
         </div>
 
         <!-- Category Filter Tabs (Bibliography Style) -->
-        <div style="display: flex; justify-content: center; gap: 12px; margin-bottom: 45px; flex-wrap: wrap;" data-aos="fade-up">
-            <button class="tag-badge filter-btn active" data-filter="all" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: var(--accent-primary); color: #ffffff; border-color: var(--accent-primary);">
+        <div class="dump-filter-bar" data-aos="fade-up">
+            <button class="tag-badge filter-btn dump-filter-pill active" data-filter="all">
                 All Works (2)
             </button>
-            <button class="tag-badge filter-btn" data-filter="ai" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: #ffffff;">
+            <button class="tag-badge filter-btn dump-filter-pill" data-filter="ai">
                 <i class="fa-solid fa-wand-magic-sparkles"></i> AI & Music Tech
             </button>
-            <button class="tag-badge filter-btn" data-filter="web" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: #ffffff;">
+            <button class="tag-badge filter-btn dump-filter-pill" data-filter="web">
                 <i class="fa-solid fa-briefcase"></i> Enterprise & Payroll
             </button>
         </div>
@@ -101,9 +101,9 @@
         </div>
 
         <!-- Collaboration Callout -->
-        <div class="facts-sidebar-card" style="margin-top: 70px; text-align: center; padding: 45px 30px;" data-aos="fade-up">
-            <h3 style="font-size: 1.8rem; margin-bottom: 12px; color: var(--ink-title);">Have a Similar Project or Software Initiative in Mind?</h3>
-            <p style="font-family: var(--font-story); font-size: 1.1rem; color: var(--ink-muted); max-width: 650px; margin: 0 auto 25px;">
+        <div class="facts-sidebar-card editorial-callout-banner" data-aos="fade-up">
+            <h3 class="callout-banner-title">Have a Similar Project or Software Initiative in Mind?</h3>
+            <p class="callout-banner-desc">
                 I am always excited to collaborate on full-stack enterprise systems, payroll & operational platforms, or interactive AI web applications.
             </p>
             <a href="mailto:proxyninja999@gmail.com" class="btn-editorial-primary">

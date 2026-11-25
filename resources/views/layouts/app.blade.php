@@ -40,15 +40,17 @@
             <div class="topbar-badge">
                 <span class="status-dot online"></span>
                 <span>OPEN FOR COLLABORATION</span>
-                <span style="opacity: 0.4;">|</span>
-                <span>MAKASSAR, ID</span>
+                <span class="topbar-sep" style="opacity: 0.4;">|</span>
+                <span class="topbar-loc">MAKASSAR, ID</span>
             </div>
             <div class="topbar-time">
-                <i class="fa-regular fa-calendar-days"></i>
-                <span>{{ $dayToday }}, {{ $dateToday }}</span>
-                <span style="opacity: 0.4;">•</span>
+                <span class="topbar-date-part">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <span>{{ $dayToday }}, {{ $dateToday }}</span>
+                    <span style="opacity: 0.4; margin: 0 4px;">•</span>
+                </span>
                 <i class="fa-regular fa-clock"></i>
-                <span id="live-clock">{{ $timeNow }}</span> WITA (UTC+8)
+                <span id="live-clock">{{ $timeNow }}</span> WITA
             </div>
         </div>
     </div>

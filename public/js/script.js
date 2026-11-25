@@ -26,7 +26,7 @@ $(document).ready(function() {
         }
     });
 
-    // Close menu on outside click
+    // Close menu on outside click or link click
     $(document).on('click', function(e) {
         if (!$(e.target).closest('.site-nav').length) {
             $('#navMenu').removeClass('active');
@@ -34,19 +34,15 @@ $(document).ready(function() {
         }
     });
 
+    $('#navMenu a').on('click', function() {
+        $('#navMenu').removeClass('active');
+        $('#mobileToggle').find('i').removeClass('fa-xmark').addClass('fa-bars-staggered');
+    });
+
     // 3. Category Filter for Works Catalog
     $('.filter-btn').on('click', function() {
-        $('.filter-btn').removeClass('active').css({
-            'background': '#ffffff',
-            'color': 'var(--ink-body)',
-            'border-color': 'var(--border-hairline)'
-        });
-        
-        $(this).addClass('active').css({
-            'background': 'var(--accent-primary)',
-            'color': '#ffffff',
-            'border-color': 'var(--accent-primary)'
-        });
+        $('.filter-btn').removeClass('active');
+        $(this).addClass('active');
 
         const filter = $(this).data('filter');
         if (filter === 'all') {
@@ -146,6 +142,29 @@ $(document).ready(function() {
             openDumpAt(currentDumpIdx - 1);
         } else if (e.key === 'ArrowRight') {
             openDumpAt(currentDumpIdx + 1);
+        }
+    });
+
+    // Touch swipe support for Lightbox on mobile
+    let touchStartX = 0;
+    let touchStartY = 0;
+    $('#dumpLightbox').on('touchstart', function(e) {
+        const touch = e.originalEvent.changedTouches[0];
+        touchStartX = touch.screenX;
+        touchStartY = touch.screenY;
+    });
+
+    $('#dumpLightbox').on('touchend', function(e) {
+        if (!$('#dumpLightbox').hasClass('active')) return;
+        const touch = e.originalEvent.changedTouches[0];
+        const dx = touch.screenX - touchStartX;
+        const dy = touch.screenY - touchStartY;
+        if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) {
+            if (dx < 0) {
+                openDumpAt(currentDumpIdx + 1);
+            } else {
+                openDumpAt(currentDumpIdx - 1);
+            }
         }
     });
 

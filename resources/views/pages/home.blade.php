@@ -275,8 +275,8 @@
         <div class="community-callout-card" data-aos="fade-up">
             <div>
                 <span class="section-eyebrow">Beyond the Terminal • Creative Curiosity</span>
-                <h2 style="font-size: 2.2rem; margin-bottom: 16px;">Music, Gaming, & Web Craft</h2>
-                <p style="font-family: var(--font-story); font-size: 1.1rem; color: var(--ink-body); line-height: 1.7;">
+                <h2 class="community-heading">Music, Gaming, & Web Craft</h2>
+                <p class="community-lead">
                     I believe great software engineering draws inspiration from diverse creative worlds. When I am not debugging endpoints or fine-tuning CSS layouts, you will find me discovering new music genres or analyzing video game mechanics and interface narratives.
                 </p>
 
@@ -287,7 +287,7 @@
                     <li><i class="fa-solid fa-heart"></i> Don't Forget to Be Awesome (DFTBA)</li>
                 </ul>
 
-                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                <div class="community-cta-row">
                     <a href="mailto:proxyninja999@gmail.com" class="btn-editorial-primary">
                         <i class="fa-solid fa-envelope"></i> Email Me Directly
                     </a>
