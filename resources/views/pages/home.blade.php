@@ -197,7 +197,79 @@
     </div>
 </section>
 
-<!-- 5. Beyond the Terminal: Creative Passions & Collaboration -->
+<!-- 5. Picture Dumps Preview: Polaroid Scrapbook -->
+<section class="section section-white">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-eyebrow">Visual Scrapbook • Picture Dumps</span>
+            <h2 class="section-title">Moments with Friends, Partner, & Life</h2>
+            <p class="section-subtitle">
+                Beyond code editors and server deployments — candid frames with the people who make everyday life brighter.
+            </p>
+            <div class="editorial-divider">
+                <i class="fa-solid fa-camera-retro"></i>
+            </div>
+        </div>
+
+        <div class="polaroid-preview-strip">
+            <a href="{{ url('/dumps') }}" class="polaroid-card tilt-left" data-aos="fade-up" data-aos-delay="50">
+                <div class="polaroid-tape"></div>
+                <div class="polaroid-photo-box">
+                    <img src="{{ asset('images/dumps/dump3.jpg') }}" alt="With Partner" loading="lazy">
+                    <span class="polaroid-cat-pill"><i class="fa-solid fa-heart"></i> With Partner</span>
+                </div>
+                <div class="polaroid-caption-area">
+                    <div class="polaroid-stamp">FRAME 01 • US</div>
+                    <h3 class="polaroid-title">Afternoon Under the Canopy</h3>
+                </div>
+            </a>
+
+            <a href="{{ url('/dumps') }}" class="polaroid-card tilt-right" data-aos="fade-up" data-aos-delay="120">
+                <div class="polaroid-tape"></div>
+                <div class="polaroid-photo-box">
+                    <img src="{{ asset('images/dumps/dump2.jpg') }}" alt="Beach Day with Friends" loading="lazy">
+                    <span class="polaroid-cat-pill"><i class="fa-solid fa-umbrella-beach"></i> Friends</span>
+                </div>
+                <div class="polaroid-caption-area">
+                    <div class="polaroid-stamp">FRAME 04 • COAST</div>
+                    <h3 class="polaroid-title">Salt Air & Good Company</h3>
+                </div>
+            </a>
+
+            <a href="{{ url('/dumps') }}" class="polaroid-card tilt-left" data-aos="fade-up" data-aos-delay="190">
+                <div class="polaroid-tape"></div>
+                <div class="polaroid-photo-box">
+                    <img src="{{ asset('images/dumps/dump4.jpg') }}" alt="Photobooth Keepsakes" loading="lazy">
+                    <span class="polaroid-cat-pill"><i class="fa-solid fa-heart"></i> Keepsakes</span>
+                </div>
+                <div class="polaroid-caption-area">
+                    <div class="polaroid-stamp">FRAME 03 • US</div>
+                    <h3 class="polaroid-title">Photobooth Strips</h3>
+                </div>
+            </a>
+
+            <a href="{{ url('/dumps') }}" class="polaroid-card tilt-right" data-aos="fade-up" data-aos-delay="260">
+                <div class="polaroid-tape"></div>
+                <div class="polaroid-photo-box">
+                    <img src="{{ asset('images/dumps/dump1.jpg') }}" alt="Campus Friends" loading="lazy">
+                    <span class="polaroid-cat-pill"><i class="fa-solid fa-user-group"></i> Campus Crew</span>
+                </div>
+                <div class="polaroid-caption-area">
+                    <div class="polaroid-stamp">FRAME 02 • CAMPUS</div>
+                    <h3 class="polaroid-title">Lectures & Laughter</h3>
+                </div>
+            </a>
+        </div>
+
+        <div style="text-align: center; margin-top: 48px;" data-aos="fade-up">
+            <a href="{{ url('/dumps') }}" class="btn-editorial-primary">
+                <i class="fa-solid fa-images"></i> Open Full Picture Dumps (9 Frames)
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 6. Beyond the Terminal: Creative Passions & Collaboration -->
 <section class="section section-warm">
     <div class="container">
         <div class="community-callout-card" data-aos="fade-up">

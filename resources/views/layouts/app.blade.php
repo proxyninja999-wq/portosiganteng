@@ -66,6 +66,7 @@
                     <li><a href="{{ url('/') }}" class="{{ Request::is('/') ? 'active' : '' }}">Home</a></li>
                     <li><a href="{{ url('/about') }}" class="{{ Request::is('about') ? 'active' : '' }}">Bio & Story</a></li>
                     <li><a href="{{ url('/projects') }}" class="{{ Request::is('projects') ? 'active' : '' }}">Works Catalog</a></li>
+                    <li><a href="{{ url('/dumps') }}" class="{{ Request::is('dumps') ? 'active' : '' }}">Picture Dumps</a></li>
                     <li>
                         <a href="mailto:proxyninja999@gmail.com" class="nav-cta-btn">
                             <i class="fa-solid fa-envelope"></i> Email Me
@@ -106,6 +107,7 @@
                         <li><a href="{{ url('/') }}"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem; margin-right: 6px;"></i> Front Page</a></li>
                         <li><a href="{{ url('/about') }}"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem; margin-right: 6px;"></i> Biography & Journey</a></li>
                         <li><a href="{{ url('/projects') }}"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem; margin-right: 6px;"></i> Catalog of Works</a></li>
+                        <li><a href="{{ url('/dumps') }}"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem; margin-right: 6px;"></i> Picture Dumps</a></li>
                     </ul>
                 </div>
 

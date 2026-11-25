@@ -19,3 +19,7 @@ Route::get('/about', function () {
 Route::get('/projects', function () {
     return view('pages.projects');
 })->name('projects');
+
+Route::get('/dumps', function () {
+    return view('pages.dumps');
+})->name('dumps');
