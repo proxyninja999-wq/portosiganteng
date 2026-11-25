@@ -58,7 +58,7 @@
                 <div class="portrait-card">
                     <div class="portrait-frame">
                         <div class="portrait-img-wrap">
-                            <img src="{{ asset('images/profil.jpeg') }}" alt="Portrait of Muh. Aditya Fadillah Badusi">
+                            <img src="{{ asset('images/profil.jpg') }}" alt="Portrait of Muh. Aditya Fadillah Badusi">
                         </div>
                         <div class="portrait-caption">
                             <div class="portrait-name">Muh. Aditya Fadillah Badusi</div>
