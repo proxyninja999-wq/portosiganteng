@@ -683,8 +683,10 @@ img {
 }
 
 .spotlight-media img {
+    width: 100%;
     max-height: 320px;
     object-fit: cover;
+    object-position: top center;
     border-radius: var(--radius-sm);
     box-shadow: var(--shadow-book);
     transition: transform 0.5s ease;
@@ -747,7 +749,7 @@ img {
 /* --- 9. Project & Bibliography Shelf Grid --- */
 .book-shelf-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     margin-top: 40px;
 }
@@ -785,6 +787,7 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top center;
     transition: transform 0.4s ease;
 }
 

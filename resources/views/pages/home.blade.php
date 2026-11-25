@@ -79,9 +79,9 @@
     <div class="container">
         <div class="section-header" data-aos="fade-up">
             <span class="section-eyebrow">Spotlight Release • Flagship Work</span>
-            <h2 class="section-title">Integrated Campus Network Infrastructure</h2>
+            <h2 class="section-title">ChordFinder — AI Music Studio</h2>
             <p class="section-subtitle">
-                An institution-wide engineering project uniting robust structured cabling, VLAN segmentation, and distributed Wi-Fi.
+                Where software engineering meets musical craft: high-precision in-browser chord detection, DSP audio analysis, and AI composition tools.
             </p>
             <div class="editorial-divider">
                 <i class="fa-solid fa-asterisk"></i>
@@ -91,19 +91,19 @@
         <div class="featured-spotlight-card" data-aos="fade-up" data-aos-delay="100">
             <div class="spotlight-media">
                 <span class="spotlight-badge">Volume Spotlight</span>
-                <img src="{{ asset('images/project1.png') }}" alt="School Network Infrastructure">
+                <img src="{{ asset('images/chordfinder.jpg') }}" alt="ChordFinder AI Music Studio">
             </div>
             <div class="spotlight-info">
-                <div class="spotlight-year"><i class="fa-regular fa-calendar"></i> COMMISSIONED: 2025 - 2026</div>
-                <h3 class="spotlight-title">SMKS Persada Campus Infrastructure</h3>
+                <div class="spotlight-year"><i class="fa-regular fa-calendar"></i> FEATURED RELEASE: 2026</div>
+                <h3 class="spotlight-title">Real-Time MIR & Live Chord Studio</h3>
                 <p class="spotlight-desc">
-                    A comprehensive institutional network overhaul encompassing Cat6 gigabit trunk routing, departmental VLAN segregation, MikroTik RouterOS firewall configuration for equitable bandwidth queues, and resilient wireless coverage for hundreds of active students and faculty.
+                    An in-browser Music Information Retrieval (MIR) suite uniting a WebGL TensorFlow.js ensemble with an 8192-FFT HPSS + HMM Viterbi DSP engine. Capable of live 60-chord recognition, full MP3/WAV/FLAC key and BPM analysis, ±0.05-cent YIN guitar tuning, and AI-assisted chord progressions.
                 </p>
                 <div class="spotlight-tech-stack">
-                    <span class="tag-badge"><i class="fa-solid fa-network-wired"></i> MikroTik RouterOS</span>
-                    <span class="tag-badge"><i class="fa-solid fa-wifi"></i> PoE Access Points</span>
-                    <span class="tag-badge"><i class="fa-solid fa-shield-halved"></i> Firewall & Captive Portal</span>
-                    <span class="tag-badge"><i class="fa-solid fa-diagram-project"></i> VLAN Subnets</span>
+                    <span class="tag-badge"><i class="fa-solid fa-brain"></i> TensorFlow.js Ensemble</span>
+                    <span class="tag-badge"><i class="fa-solid fa-wave-square"></i> 8192-FFT HPSS + Viterbi</span>
+                    <span class="tag-badge"><i class="fa-solid fa-guitar"></i> YIN Precision Tuner</span>
+                    <span class="tag-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Gemini Copilot</span>
                 </div>
                 <div>
                     <a href="{{ url('/projects') }}" class="btn-editorial-primary">
@@ -130,66 +130,44 @@
         </div>
 
         <div class="book-shelf-grid">
-            <!-- Project 1 -->
-            <div class="book-item-card" data-aos="fade-up" data-aos-delay="100">
+            <!-- Project 1: ChordFinder -->
+            <div class="book-item-card" data-aos="fade-up" data-aos-delay="50">
                 <div class="book-cover-wrap">
-                    <img src="{{ asset('images/project1.png') }}" alt="Network Infrastructure">
+                    <img src="{{ asset('images/chordfinder.jpg') }}" alt="ChordFinder AI Studio">
                     <span class="book-vol-tag">VOL. 01</span>
                 </div>
                 <div class="book-meta-top">
-                    <span class="book-category">Network & Hardware</span>
-                    <span class="book-year">2025</span>
+                    <span class="book-category">AI & Music Tech</span>
+                    <span class="book-year">2026</span>
                 </div>
-                <h3 class="book-title">Campus Network Architecture</h3>
+                <h3 class="book-title">ChordFinder AI Studio</h3>
                 <p class="book-synopsis">
-                    Comprehensive design and deployment of structured LAN cabling, captive hotspot access, and bandwidth governance at SMKS Persada.
+                    Real-time 60-chord audio detector and studio monitor powered by TensorFlow.js, 8192-FFT HPSS + HMM Viterbi DSP, and a precision YIN tuner.
                 </p>
                 <div class="book-card-footer">
-                    <span class="tag-badge">SMKS Persada</span>
+                    <span class="tag-badge">TF.js & Web Audio</span>
                     <a href="{{ url('/projects') }}" class="book-action-link">
                         Read Review <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="book-item-card" data-aos="fade-up" data-aos-delay="200">
+            <!-- Project 2: Penggajian -->
+            <div class="book-item-card" data-aos="fade-up" data-aos-delay="150">
                 <div class="book-cover-wrap">
-                    <img src="{{ asset('images/project2.png') }}" alt="Dynamic Web Portfolio">
+                    <img src="{{ asset('images/penggajian.svg') }}" alt="Penggajian Employee Payroll System">
                     <span class="book-vol-tag">VOL. 02</span>
                 </div>
                 <div class="book-meta-top">
-                    <span class="book-category">Web Architecture</span>
+                    <span class="book-category">Enterprise & Payroll</span>
                     <span class="book-year">2026</span>
                 </div>
-                <h3 class="book-title">Dynamic Editorial Portfolio</h3>
+                <h3 class="book-title">Penggajian — Payroll & Operations System</h3>
                 <p class="book-synopsis">
-                    Modern web platform built with a literary editorial design system, structured data persistence, real-time interactions, and clean layout.
+                    Full-stack Laravel 12 workforce platform managing employee attendance, delivery trip-rate bonuses, automated salary deductions, and printable payslips.
                 </p>
                 <div class="book-card-footer">
-                    <span class="tag-badge">Laravel & JS</span>
-                    <a href="{{ url('/projects') }}" class="book-action-link">
-                        Read Review <i class="fa-solid fa-arrow-right-long"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="book-item-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="book-cover-wrap">
-                    <img src="{{ asset('images/project3.png') }}" alt="Digital Attendance System">
-                    <span class="book-vol-tag">VOL. 03</span>
-                </div>
-                <div class="book-meta-top">
-                    <span class="book-category">Educational System</span>
-                    <span class="book-year">2026</span>
-                </div>
-                <h3 class="book-title">Digital Attendance & Analytics</h3>
-                <p class="book-synopsis">
-                    Automated web-based student tracking platform providing live attendance records, automated reports, and streamlined administrative management.
-                </p>
-                <div class="book-card-footer">
-                    <span class="tag-badge">Enterprise UI</span>
+                    <span class="tag-badge">Laravel 12 & MySQL</span>
                     <a href="{{ url('/projects') }}" class="book-action-link">
                         Read Review <i class="fa-solid fa-arrow-right-long"></i>
                     </a>

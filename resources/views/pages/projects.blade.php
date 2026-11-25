@@ -9,7 +9,7 @@
             <span class="section-eyebrow">Bibliography & Portfolio • Curated Works</span>
             <h1 class="section-title">Catalog of Systems & Engineering Works</h1>
             <p class="section-subtitle">
-                A collection of system architectures, network infrastructures, and web platforms crafted with meticulous attention to performance and human experience.
+                A curated selection of AI audio applications and enterprise web platforms crafted with meticulous attention to performance and human experience.
             </p>
             <div class="editorial-divider">
                 <i class="fa-solid fa-layer-group"></i>
@@ -19,113 +19,80 @@
         <!-- Category Filter Tabs (Bibliography Style) -->
         <div style="display: flex; justify-content: center; gap: 12px; margin-bottom: 45px; flex-wrap: wrap;" data-aos="fade-up">
             <button class="tag-badge filter-btn active" data-filter="all" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: var(--accent-primary); color: #ffffff; border-color: var(--accent-primary);">
-                All Works (3)
+                All Works (2)
             </button>
-            <button class="tag-badge filter-btn" data-filter="network" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: #ffffff;">
-                <i class="fa-solid fa-network-wired"></i> Networks & Hardware
+            <button class="tag-badge filter-btn" data-filter="ai" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: #ffffff;">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> AI & Music Tech
             </button>
             <button class="tag-badge filter-btn" data-filter="web" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: #ffffff;">
-                <i class="fa-solid fa-code"></i> Web Engineering
-            </button>
-            <button class="tag-badge filter-btn" data-filter="education" style="padding: 8px 18px; font-size: 0.85rem; cursor: pointer; background: #ffffff;">
-                <i class="fa-solid fa-graduation-cap"></i> Educational Systems
+                <i class="fa-solid fa-briefcase"></i> Enterprise & Payroll
             </button>
         </div>
 
         <!-- Shelf Grid -->
         <div class="book-shelf-grid">
-            
-            <!-- Project 1 -->
-            <div class="book-item-card project-filter-item" data-category="network" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Project 1: ChordFinder -->
+            <div class="book-item-card project-filter-item" data-category="ai" data-aos="fade-up" data-aos-delay="50">
                 <div class="book-cover-wrap">
-                    <img src="{{ asset('images/project1.png') }}" alt="Campus Network Infrastructure">
-                    <span class="book-vol-tag">VOL. 01 • NET</span>
+                    <img src="{{ asset('images/chordfinder.jpg') }}" alt="ChordFinder AI Studio">
+                    <span class="book-vol-tag">VOL. 01 • AI & MIR</span>
                 </div>
                 <div class="book-meta-top">
-                    <span class="book-category"><i class="fa-solid fa-ethernet"></i> Networks & Hardware</span>
-                    <span class="book-year">2025</span>
+                    <span class="book-category"><i class="fa-solid fa-music"></i> AI & Music Tech</span>
+                    <span class="book-year">2026</span>
                 </div>
-                <h3 class="book-title">Integrated Campus Network Infrastructure</h3>
+                <h3 class="book-title">ChordFinder — AI Music Studio & Live Chord Detector</h3>
                 <p class="book-synopsis">
-                    Comprehensive design and implementation of Cat6 structured cabling, departmental VLANs, MikroTik firewall queuing, and high-density campus Wi-Fi.
+                    In-browser real-time chord detection and audio analysis studio powered by a dual TensorFlow.js ensemble and 8192-FFT HPSS + HMM Viterbi DSP engine with 60-chord recognition, precision YIN guitar tuner, and Gemini AI copilot.
                 </p>
                 <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px;">
-                    <span class="tag-badge">MikroTik RouterOS</span>
-                    <span class="tag-badge">Structured LAN</span>
-                    <span class="tag-badge">Bandwidth QoS</span>
+                    <span class="tag-badge">TensorFlow.js</span>
+                    <span class="tag-badge">8192-FFT & Viterbi DSP</span>
+                    <span class="tag-badge">YIN Tuner</span>
+                    <span class="tag-badge">Gemini Copilot</span>
                 </div>
                 <div class="book-card-footer">
-                    <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-muted);">SMKS Persada</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-muted);">AI Audio Studio</span>
                     <button class="book-action-link btn-view-project" style="background: none; border: none; cursor: pointer;"
-                        data-title="Integrated Campus Network Infrastructure"
-                        data-cat="Networks & Hardware (2025)"
-                        data-img="{{ asset('images/project1.png') }}"
-                        data-desc="This engineering initiative focused on modernizing institutional wired and wireless infrastructure across SMKS Persada. Faced with dense daily computer-based learning traffic, the topology was structured with deterministic CIDR subnets, VLAN segregation between staff and student labs, content DNS filtering, and prioritized bandwidth queues."
-                        data-tech="MikroTik RouterOS, Cat6 UTP, Managed Cisco Switches, PoE APs, CIDR Subnetting">
+                        data-title="ChordFinder — AI Music Studio & Live Chord Detector"
+                        data-cat="AI & Music Tech (2026)"
+                        data-img="{{ asset('images/chordfinder.jpg') }}"
+                        data-desc="Born at the intersection of software engineering and a lifelong love for music, ChordFinder is a high-precision Music Information Retrieval (MIR) web studio. It pairs a WebGL-accelerated TensorFlow.js neural ensemble with an 8192/16K-FFT Harmonic-Percussive Source Separation (HPSS) and HMM Viterbi decoding pipeline to recognize 60 chord qualities (Major, Minor, 7th) live from microphone input or uploaded MP3/WAV/FLAC tracks. Features include automatic key & BPM detection, bass anchoring, a 12-pitch class chromagram monitor, a ±0.05-cent YIN precision guitar tuner, reverse fretboard/piano finder, and an integrated Gemini AI progression & lyric copilot."
+                        data-tech="TensorFlow.js (WebGL), Web Audio API, 8192/16K-FFT MIR, HPSS & HMM Viterbi DSP, YIN Pitch Algorithm, Gemini AI API">
                         Case Study <i class="fa-solid fa-arrow-right-long"></i>
                     </button>
                 </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="book-item-card project-filter-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+            <!-- Project 2: Penggajian -->
+            <div class="book-item-card project-filter-item" data-category="web" data-aos="fade-up" data-aos-delay="150">
                 <div class="book-cover-wrap">
-                    <img src="{{ asset('images/project2.png') }}" alt="Dynamic Editorial Portfolio">
-                    <span class="book-vol-tag">VOL. 02 • WEB</span>
+                    <img src="{{ asset('images/penggajian.svg') }}" alt="Employee Payroll & Operations System">
+                    <span class="book-vol-tag">VOL. 02 • ERP & PAYROLL</span>
                 </div>
                 <div class="book-meta-top">
-                    <span class="book-category"><i class="fa-solid fa-laptop-code"></i> Web Engineering</span>
+                    <span class="book-category"><i class="fa-solid fa-file-invoice-dollar"></i> Enterprise & Payroll</span>
                     <span class="book-year">2026</span>
                 </div>
-                <h3 class="book-title">Dynamic Editorial Portfolio & Fellowship Portal</h3>
+                <h3 class="book-title">Penggajian — Employee Payroll & Operations System</h3>
                 <p class="book-synopsis">
-                    Full-featured Laravel web platform built with a literary editorial design system, SQLite persistence, real-time AJAX, and community membership.
+                    Full-stack enterprise payroll, attendance, and operational dispatch platform built with Laravel 12, featuring multi-role portals, geolocation attendance recaps, delivery trip bonuses, and automated digital payslips.
                 </p>
                 <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px;">
-                    <span class="tag-badge">Laravel 11</span>
-                    <span class="tag-badge">PHP 8.3</span>
-                    <span class="tag-badge">AJAX Engine</span>
+                    <span class="tag-badge">Laravel 12</span>
+                    <span class="tag-badge">PHP 8.3 & MySQL</span>
+                    <span class="tag-badge">Multi-Role Auth</span>
+                    <span class="tag-badge">Automated Payslips</span>
                 </div>
                 <div class="book-card-footer">
-                    <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-muted);">Personal Platform</span>
+                    <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-muted);">PT Espri Tirta Kencana</span>
                     <button class="book-action-link btn-view-project" style="background: none; border: none; cursor: pointer;"
-                        data-title="Dynamic Editorial Portfolio & Fellowship Portal"
-                        data-cat="Web Engineering (2026)"
-                        data-img="{{ asset('images/project2.png') }}"
-                        data-desc="Engineered with a content-first philosophy inspired by John Green's literary web aesthetic. The application integrates an authenticated community fellowship module with secure Bcrypt credential hashing, dynamic AJAX service selectors, and an administrative curation dashboard."
-                        data-tech="PHP 8.3, Laravel Framework, SQLite Database, jQuery AJAX, CSS3 Typography Architecture">
-                        Case Study <i class="fa-solid fa-arrow-right-long"></i>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="book-item-card project-filter-item" data-category="education" data-aos="fade-up" data-aos-delay="300">
-                <div class="book-cover-wrap">
-                    <img src="{{ asset('images/project3.png') }}" alt="Digital Student Attendance System">
-                    <span class="book-vol-tag">VOL. 03 • SYS</span>
-                </div>
-                <div class="book-meta-top">
-                    <span class="book-category"><i class="fa-solid fa-chart-line"></i> Educational Systems</span>
-                    <span class="book-year">2026</span>
-                </div>
-                <h3 class="book-title">Digital Student Attendance & Analytics Platform</h3>
-                <p class="book-synopsis">
-                    Automated web-based attendance tracking platform delivering real-time classroom statistics, automated reports, and streamlined administrative management.
-                </p>
-                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px;">
-                    <span class="tag-badge">Student Tracking</span>
-                    <span class="tag-badge">Automated Reports</span>
-                    <span class="tag-badge">Responsive UI</span>
-                </div>
-                <div class="book-card-footer">
-                    <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-muted);">Academic Systems</span>
-                    <button class="book-action-link btn-view-project" style="background: none; border: none; cursor: pointer;"
-                        data-title="Digital Student Attendance & Analytics Platform"
-                        data-cat="Educational Systems (2026)"
-                        data-img="{{ asset('images/project3.png') }}"
-                        data-desc="Crafted to eliminate cumbersome paper-based roll calls in vocational schools. The system features a rapid-entry teacher interface, automatic monthly percentage calculations, early notification triggers for chronic absenteeism, and export-ready administrative reports."
-                        data-tech="Web Stack, Relational SQL, Analytics Dashboard, PDF & Spreadsheet Export Engine">
+                        data-title="Penggajian — Employee Payroll & Operations System"
+                        data-cat="Enterprise Web & Payroll (2026)"
+                        data-img="{{ asset('images/penggajian.svg') }}"
+                        data-desc="Engineered to streamline workforce administration and monthly payroll calculations for industrial operations (PT Espri Tirta Kencana). Built on Laravel 12 with dedicated Admin and Employee (Pegawai) role portals, the platform manages employee & position master records, geolocation-verified daily attendance windows, delivery manifests and driver trip-rate bonuses (Surat Jalan & Ritase), configurable salary deductions, monthly financial & attendance reports, and one-click printable employee payslips."
+                        data-tech="Laravel 12, PHP 8.3, MySQL, Bootstrap UI, jQuery AJAX, Role-Based Access Control (RBAC), Printable Slip Engine">
                         Case Study <i class="fa-solid fa-arrow-right-long"></i>
                     </button>
                 </div>
@@ -135,9 +102,9 @@
 
         <!-- Collaboration Callout -->
         <div class="facts-sidebar-card" style="margin-top: 70px; text-align: center; padding: 45px 30px;" data-aos="fade-up">
-            <h3 style="font-size: 1.8rem; margin-bottom: 12px; color: var(--ink-title);">Have a Similar Project or Research Initiative in Mind?</h3>
+            <h3 style="font-size: 1.8rem; margin-bottom: 12px; color: var(--ink-title);">Have a Similar Project or Software Initiative in Mind?</h3>
             <p style="font-family: var(--font-story); font-size: 1.1rem; color: var(--ink-muted); max-width: 650px; margin: 0 auto 25px;">
-                I am always excited to discuss new network deployments, web platforms, or digital education initiatives.
+                I am always excited to collaborate on full-stack enterprise systems, payroll & operational platforms, or interactive AI web applications.
             </p>
             <a href="mailto:proxyninja999@gmail.com" class="btn-editorial-primary">
                 <i class="fa-solid fa-envelope"></i> Email Me to Discuss
@@ -152,7 +119,7 @@
     <div class="modal-editorial-card">
         <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
         <div style="width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg-warm);">
-            <img id="modalImg" src="" alt="Work Detail" style="width: 100%; height: 100%; object-fit: cover;">
+            <img id="modalImg" src="" alt="Work Detail" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
         </div>
         <div class="modal-content-box">
             <div id="modalCat" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber); text-transform: uppercase; margin-bottom: 6px; font-weight: 600;"></div>

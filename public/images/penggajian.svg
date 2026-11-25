@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="sidebarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="55%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <!-- App Background -->
+  <rect width="1600" height="1000" fill="#f1f5f9"/>
+
+  <!-- Left Sidebar (SB Admin 2 Modern Style) -->
+  <rect x="0" y="0" width="270" height="1000" fill="url(#sidebarGrad)"/>
+  
+  <!-- Brand Logo -->
+  <rect x="24" y="22" width="42" height="42" rx="10" fill="#3b82f6"/>
+  <text x="45" y="50" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
+  <text x="80" y="40" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#ffffff" letter-spacing="0.5">SIM-PENGGAJIAN</text>
+  <text x="80" y="58" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#93c5fd">PT Espri Tirta Kencana</text>
+  <line x1="20" y1="82" x2="250" y2="82" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <!-- Sidebar Nav Items -->
+  <rect x="16" y="100" width="238" height="44" rx="8" fill="#ffffff" fill-opacity="0.16"/>
+  <circle cx="42" cy="122" r="6" fill="#60a5fa"/>
+  <text x="62" y="127" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Dashboard Eksekutif</text>
+
+  <text x="26" y="176" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#93c5fd" letter-spacing="1.4">MASTER DATA</text>
+  <text x="56" y="208" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#dbeafe">Data Karyawan</text>
+  <circle cx="36" cy="203" r="4" fill="#93c5fd"/>
+  <text x="56" y="246" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#dbeafe">Data Jabatan &amp; Tunjangan</text>
+  <circle cx="36" cy="241" r="4" fill="#93c5fd"/>
+
+  <text x="26" y="296" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#93c5fd" letter-spacing="1.4">OPERASIONAL &amp; ABSENSI</text>
+  <text x="56" y="328" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#dbeafe">Rekap Absensi &amp; Lokasi</text>
+  <circle cx="36" cy="323" r="4" fill="#34d399"/>
+  <text x="56" y="366" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#dbeafe">Surat Jalan &amp; Ritase Sopir</text>
+  <circle cx="36" cy="361" r="4" fill="#38bdf8"/>
+  <text x="56" y="404" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#dbeafe">Potongan Gaji</text>
+  <circle cx="36" cy="399" r="4" fill="#fbbf24"/>
+
+  <text x="26" y="456" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#93c5fd" letter-spacing="1.4">KEUANGAN &amp; LAPORAN</text>
+  <rect x="16" y="472" width="238" height="40" rx="8" fill="#2563eb" fill-opacity="0.45"/>
+  <circle cx="36" cy="492" r="4" fill="#facc15"/>
+  <text x="56" y="497" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">Data Gaji &amp; Kalkulasi</text>
+  <text x="56" y="538" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#dbeafe">Laporan Gaji Bulanan</text>
+  <circle cx="36" cy="533" r="4" fill="#93c5fd"/>
+  <text x="56" y="576" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#dbeafe">Cetak Slip Gaji</text>
+  <circle cx="36" cy="571" r="4" fill="#93c5fd"/>
+
+  <!-- Topbar -->
+  <rect x="270" y="0" width="1330" height="72" fill="#ffffff"/>
+  <line x1="270" y1="72" x2="1600" y2="72" stroke="#e2e8f0"/>
+  <rect x="305" y="18" width="380" height="36" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="325" y="41" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" fill="#64748b">Cari nama karyawan, NIK, jabatan, atau slip gaji...</text>
+
+  <!-- Admin User Pill -->
+  <rect x="1355" y="16" width="210" height="40" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <circle cx="1380" cy="36" r="14" fill="#1e40af"/>
+  <text x="1380" y="41" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">AD</text>
+  <text x="1404" y="34" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1e293b">Administrator</text>
+  <text x="1404" y="48" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="10.5" fill="#16a34a">● Multi-Role Active</text>
+
+  <!-- Company Executive Hero Banner -->
+  <rect x="305" y="96" width="1260" height="132" rx="14" fill="url(#heroGrad)" filter="url(#cardShadow)"/>
+  <rect x="335" y="126" width="68" height="68" rx="14" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="369" y="170" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">ETK</text>
+  
+  <text x="422" y="135" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#bae6fd" letter-spacing="1.6">PORTAL EKSEKUTIF OPERASIONAL &amp; PENGGAJIAN</text>
+  <text x="422" y="170" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#ffffff">PT ESPRI TIRTA KENCANA</text>
+  <text x="422" y="196" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" fill="#e0f2fe">Sistem Informasi Penggajian, Presensi Geolocation &amp; Ritase Beton Siap Pakai (Ready-Mix)</text>
+
+  <rect x="1305" y="122" width="230" height="34" rx="8" fill="#ffffff" fill-opacity="0.18"/>
+  <text x="1420" y="144" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Periode Gaji: November 2026</text>
+  <rect x="1325" y="166" width="210" height="32" rx="16" fill="#22c55e"/>
+  <text x="1430" y="187" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">● Absensi Buka (07:00 - 12:00)</text>
+
+  <!-- 4 KPI Stat Cards -->
+  <!-- Card 1: Total Karyawan -->
+  <g filter="url(#cardShadow)">
+    <rect x="305" y="252" width="296" height="122" rx="12" fill="#ffffff"/>
+    <rect x="305" y="252" width="6" height="122" rx="3" fill="#2563eb"/>
+    <text x="330" y="284" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#2563eb" letter-spacing="0.8">TOTAL KARYAWAN</text>
+    <text x="330" y="326" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#0f172a">48</text>
+    <text x="382" y="325" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" fill="#64748b">Pegawai Aktif</text>
+    <text x="330" y="354" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" fill="#64748b">Terdaftar dalam struktur gaji</text>
+    <rect x="536" y="286" width="44" height="44" rx="10" fill="#dbeafe"/>
+    <text x="558" y="315" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#2563eb" text-anchor="middle">ID</text>
+  </g>
+
+  <!-- Card 2: Kehadiran Hari Ini -->
+  <g filter="url(#cardShadow)">
+    <rect x="626" y="252" width="296" height="122" rx="12" fill="#ffffff"/>
+    <rect x="626" y="252" width="6" height="122" rx="3" fill="#16a34a"/>
+    <text x="651" y="284" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#16a34a" letter-spacing="0.8">KEHADIRAN HARI INI</text>
+    <text x="651" y="326" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#0f172a">45</text>
+    <text x="703" y="325" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" fill="#64748b">Hadir (93.8%)</text>
+    <rect x="651" y="338" width="58" height="20" rx="4" fill="#fef3c7"/>
+    <text x="680" y="352" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#b45309" text-anchor="middle">2 Sakit</text>
+    <rect x="716" y="338" width="62" height="20" rx="4" fill="#fee2e2"/>
+    <text x="747" y="352" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626" text-anchor="middle">1 Alpha</text>
+    <rect x="857" y="286" width="44" height="44" rx="10" fill="#dcfce7"/>
+    <text x="879" y="315" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#16a34a" text-anchor="middle">✓</text>
+  </g>
+
+  <!-- Card 3: Ritase Bulan Ini -->
+  <g filter="url(#cardShadow)">
+    <rect x="947" y="252" width="296" height="122" rx="12" fill="#ffffff"/>
+    <rect x="947" y="252" width="6" height="122" rx="3" fill="#0284c7"/>
+    <text x="972" y="284" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0284c7" letter-spacing="0.8">RITASE SURAT JALAN</text>
+    <text x="972" y="326" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#0f172a">312</text>
+    <text x="1042" y="325" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" fill="#64748b">Trip Sopir</text>
+    <text x="972" y="354" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" fill="#0284c7" font-weight="600">2.184,50 m³ Volume Beton</text>
+    <rect x="1178" y="286" width="44" height="44" rx="10" fill="#e0f2fe"/>
+    <text x="1200" y="315" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#0284c7" text-anchor="middle">m³</text>
+  </g>
+
+  <!-- Card 4: Total Penggajian -->
+  <g filter="url(#cardShadow)">
+    <rect x="1269" y="252" width="296" height="122" rx="12" fill="#ffffff"/>
+    <rect x="1269" y="252" width="6" height="122" rx="3" fill="#d97706"/>
+    <text x="1294" y="284" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#d97706" letter-spacing="0.8">ESTIMASI GAJI BERSIH</text>
+    <text x="1294" y="324" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#0f172a">Rp 248,6 Jt</text>
+    <text x="1294" y="354" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" fill="#64748b">8 Divisi Jabatan • Auto-Slip</text>
+    <rect x="1500" y="286" width="44" height="44" rx="10" fill="#fef3c7"/>
+    <text x="1522" y="315" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#d97706" text-anchor="middle">Rp</text>
+  </g>
+
+  <!-- Quick Actions Bar -->
+  <g filter="url(#cardShadow)">
+    <rect x="305" y="396" width="1260" height="64" rx="12" fill="#ffffff"/>
+    <text x="332" y="434" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="800" fill="#475569" letter-spacing="0.8">⚡ AKSES CEPAT:</text>
+    
+    <rect x="470" y="411" width="168" height="34" rx="7" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="554" y="433" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">+ Buat Surat Jalan</text>
+
+    <rect x="652" y="411" width="174" height="34" rx="7" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="739" y="433" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#15803d" text-anchor="middle">+ Tambah Karyawan</text>
+
+    <rect x="840" y="411" width="160" height="34" rx="7" fill="#f0f9ff" stroke="#7dd3fc"/>
+    <text x="920" y="433" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0369a1" text-anchor="middle">Rekap Absensi</text>
+
+    <rect x="1014" y="411" width="156" height="34" rx="7" fill="#fffbeb" stroke="#fcd34d"/>
+    <text x="1092" y="433" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#b45309" text-anchor="middle">Kelola Data Gaji</text>
+
+    <rect x="1184" y="411" width="176" height="34" rx="7" fill="#1e40af"/>
+    <text x="1272" y="433" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Cetak Laporan &amp; Slip</text>
+  </g>
+
+  <!-- Data Gaji Karyawan Table Card -->
+  <g filter="url(#cardShadow)">
+    <rect x="305" y="484" width="1260" height="482" rx="12" fill="#ffffff"/>
+    <text x="335" y="526" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#0f172a">Rekapitulasi Perhitungan Gaji &amp; Tunjangan Karyawan</text>
+    <text x="335" y="548" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" fill="#64748b">Kalkulasi otomatis: Gaji Pokok + Tunjangan Jabatan + Bonus Ritase − Potongan Absensi</text>
+
+    <rect x="1385" y="504" width="150" height="36" rx="8" fill="#16a34a"/>
+    <text x="1460" y="527" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">Export PDF / Cetak</text>
+
+    <!-- Table Header -->
+    <rect x="330" y="570" width="1210" height="44" rx="6" fill="#f8fafc"/>
+    <text x="352" y="597" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#475569">NAMA KARYAWAN / NIK</text>
+    <text x="615" y="597" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#475569">JABATAN</text>
+    <text x="825" y="597" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#475569">GAJI POKOK</text>
+    <text x="985" y="597" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#475569">TUNJANGAN &amp; BONUS</text>
+    <text x="1175" y="597" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#475569">POTONGAN</text>
+    <text x="1310" y="597" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#475569">GAJI BERSIH</text>
+    <text x="1462" y="597" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="800" fill="#475569">SLIP</text>
+
+    <!-- Row 1 -->
+    <line x1="330" y1="680" x2="1540" y2="680" stroke="#f1f5f9"/>
+    <text x="352" y="643" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#0f172a">Rizky Pratama Putra</text>
+    <text x="352" y="663" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" fill="#64748b">NIK: ETK-2026-004 • 26 Hari Hadir</text>
+    <rect x="615" y="634" width="165" height="26" rx="13" fill="#eff6ff"/>
+    <text x="697" y="651" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1d4ed8" text-anchor="middle">Operator Batching Plant</text>
+    <text x="825" y="652" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#334155">Rp 4.800.000</text>
+    <text x="985" y="652" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#16a34a">+ Rp 1.450.000</text>
+    <text x="1175" y="652" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#64748b">Rp 0</text>
+    <text x="1310" y="652" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#0f172a">Rp 6.250.000</text>
+    <rect x="1450" y="633" width="74" height="28" rx="6" fill="#1e40af"/>
+    <text x="1487" y="651" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">Slip PDF</text>
+
+    <!-- Row 2 -->
+    <line x1="330" y1="752" x2="1540" y2="752" stroke="#f1f5f9"/>
+    <text x="352" y="715" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#0f172a">Hendra Wijaya</text>
+    <text x="352" y="735" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" fill="#64748b">NIK: ETK-2026-011 • 38 Ritase Truck Mixer</text>
+    <rect x="615" y="706" width="155" height="26" rx="13" fill="#ecfeff"/>
+    <text x="692" y="723" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0e7490" text-anchor="middle">Sopir Mixer Ready-Mix</text>
+    <text x="825" y="724" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#334155">Rp 3.900.000</text>
+    <text x="985" y="724" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#16a34a">+ Rp 2.280.000</text>
+    <text x="1175" y="724" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#dc2626">− Rp 100.000</text>
+    <text x="1310" y="724" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#0f172a">Rp 6.080.000</text>
+    <rect x="1450" y="705" width="74" height="28" rx="6" fill="#1e40af"/>
+    <text x="1487" y="723" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">Slip PDF</text>
+
+    <!-- Row 3 -->
+    <line x1="330" y1="824" x2="1540" y2="824" stroke="#f1f5f9"/>
+    <text x="352" y="787" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#0f172a">Nadia Maharani, S.E.</text>
+    <text x="352" y="807" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" fill="#64748b">NIK: ETK-2026-002 • 26 Hari Hadir</text>
+    <rect x="615" y="778" width="160" height="26" rx="13" fill="#fef3c7"/>
+    <text x="695" y="795" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#b45309" text-anchor="middle">Staff Keuangan &amp; HRD</text>
+    <text x="825" y="796" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#334155">Rp 4.500.000</text>
+    <text x="985" y="796" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#16a34a">+ Rp 1.200.000</text>
+    <text x="1175" y="796" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#64748b">Rp 0</text>
+    <text x="1310" y="796" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#0f172a">Rp 5.700.000</text>
+    <rect x="1450" y="777" width="74" height="28" rx="6" fill="#1e40af"/>
+    <text x="1487" y="795" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">Slip PDF</text>
+
+    <!-- Row 4 -->
+    <text x="352" y="859" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#0f172a">Arman Saputra</text>
+    <text x="352" y="879" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" fill="#64748b">NIK: ETK-2026-019 • 25 Hari Hadir</text>
+    <rect x="615" y="850" width="165" height="26" rx="13" fill="#dcfce7"/>
+    <text x="697" y="867" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#15803d" text-anchor="middle">Teknisi Concrete Pump</text>
+    <text x="825" y="868" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#334155">Rp 4.200.000</text>
+    <text x="985" y="868" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#16a34a">+ Rp 1.350.000</text>
+    <text x="1175" y="868" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#dc2626">− Rp 75.000</text>
+    <text x="1310" y="868" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#0f172a">Rp 5.475.000</text>
+    <rect x="1450" y="849" width="74" height="28" rx="6" fill="#1e40af"/>
+    <text x="1487" y="867" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">Slip PDF</text>
+
+    <!-- Footer Summary Strip -->
+    <rect x="330" y="906" width="1210" height="40" rx="6" fill="#f8fafc"/>
+    <text x="352" y="931" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b">Menampilkan 1–4 dari 48 karyawan aktif • Laravel 12 &amp; MySQL Payroll Engine</text>
+    <text x="1518" y="931" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#1e40af" text-anchor="end">Status Periode: Terverifikasi ✓</text>
+  </g>
+</svg>
