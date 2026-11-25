@@ -58,7 +58,7 @@
         <div class="container">
             <nav class="site-nav">
                 <a href="{{ url('/') }}" class="brand-wrapper">
-                    <div class="brand-title">Aditya Badusi<span>.</span></div>
+                    <div class="brand-title">4dtyaaa<span>.</span></div>
                     <div class="brand-tagline">Full Stack Web Developer • Software Engineering</div>
                 </a>
 
